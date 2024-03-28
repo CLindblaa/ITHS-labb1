@@ -9,7 +9,7 @@ export const ShoppingList = ({
 }) => {
   return (
     <div className="pb-4 mt-5 container bg-light border rounded shadow">
-      <h4 className="fw-light m-4">You need to buy:</h4>
+      <h4 className="m-4 fw-light">You need to buy:</h4>
       <div className="list-group">
         {products.map((product) => (
           <ListItem
