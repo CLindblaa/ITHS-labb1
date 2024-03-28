@@ -4,7 +4,7 @@ export function Navbar() {
   return (
     <nav class="navbar bg-dark navbar-expand-lg navbar-dark bg-body-tertiary">
       <div class="container-fluid">
-        <img src="favicon.ico" className="my-1 mx-4"></img>
+        <img src="favicon.ico" alt="" className="my-1 mx-4"></img>
         <button
           data-mdb-collapse-init
           class="navbar-toggler"
@@ -17,16 +17,12 @@ export function Navbar() {
           <i class="fas fa-bars"></i>
         </button>
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-          <div class="navbar-nav">
-            <a class="nav-link active me-2" aria-current="page" href="#">
+          <div class="navbar-nav mt-2">
+            <p class="nav-link active me-2 fs-5" aria-current="page">
               My shoppinglist
-            </a>
-            <a class="nav-link me-2" href="#">
-              Features
-            </a>
-            <a class="nav-link" href="#">
-              Contact
-            </a>
+            </p>
+            <p class="nav-link me-2 fs-5">Features</p>
+            <p class="nav-link fs-5">Contact</p>
           </div>
         </div>
       </div>
